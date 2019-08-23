@@ -8,5 +8,17 @@ npm install -S afeiship/next-node-download --registry=https://registry.npm.taoba
 
 ## usage
 ```js
-//DOCS here!
+nx.nodeDownload({
+  url:
+    'http://test.com/download.zip',
+  filename: 'download.zip',
+  headers: {
+    Cookie:
+      'FOtJ2lPcYzhWXJHlm6z1ox28mNAZ04dSg8qh'
+  }
+}).then((res) => {
+  if(!res.code){
+    console.log('success!');
+  }
+});
 ```
