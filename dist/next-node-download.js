@@ -2,7 +2,7 @@
  * name: next-node-download
  * url: https://github.com/afeiship/next-node-download
  * version: 1.0.0
- * date: 2019-08-23T05:53:47.810Z
+ * date: 2019-08-23T05:54:28.689Z
  * license: MIT
  */
 
@@ -11,11 +11,12 @@
   var nx = global.nx || require('next-js-core2');
   var fetch = require('node-fetch');
   var fs = require('fs');
+  var DEFAULT_OPTIONS = {};
 
   nx.nodeDownload = function(inOptions) {
-    var options = inOptions;
-    var filename = inOptions.filename;
-    var url = inOptions.url;
+    var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
+    var filename = options.filename;
+    var url = options.url;
     return new Promise(function(resolve, reject) {
       return fetch(url, options).then(function(res) {
         var fileStream = fs.createWriteStream(filename);
