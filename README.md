@@ -45,7 +45,7 @@ nx.nodeDownload({
 }).then((res) => {
   expect(fs.existsSync(filename)).toBe(true);
   done();
-});F
+});
 ```
 
 ## resources
