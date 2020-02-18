@@ -1,24 +1,28 @@
 # next-node-download
-> Download file for next
+> Download file for next.
 
 ## installation
 ```bash
-npm install -S afeiship/next-node-download --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-node-download
 ```
 
 ## usage
 ```js
+import '@feizheng/next-node-download';
+
+const filename = '__tests__/master.zip';
 nx.nodeDownload({
-  url:
-    'http://test.com/download.zip',
-  filename: 'download.zip',
-  headers: {
-    Cookie:
-      'FOtJ2lPcYzhWXJHlm6z1ox28mNAZ04dSg8qh'
-  }
+  url: 'https://github.com/afeiship/boilerplate-book-notes/archive/master.zip',
+  filename,
+  agent: new HttpsProxyAgent('http://127.0.0.1:9090')
 }).then((res) => {
-  if(!res.code){
-    console.log('success!');
-  }
-});
+  expect(fs.existsSync(filename)).toBe(true);
+  done();
+});F
 ```
+
+## resources
+- https://stackoverflow.com/questions/49603939/async-callback-was-not-invoked-within-the-5000ms-timeout-specified-by-jest-setti
+- https://www.jianshu.com/p/63d70a93a401
+- https://jestjs.io/docs/en/configuration#testtimeout-number
+- https://stackoverflow.com/questions/44524236/using-proxy-like-fiddler-with-fetch-api

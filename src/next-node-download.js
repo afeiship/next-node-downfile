@@ -1,6 +1,6 @@
 (function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
   var fetch = require('node-fetch');
   var fs = require('fs');
   var DEFAULT_OPTIONS = {};
@@ -24,7 +24,6 @@
       });
     });
   };
-
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.nodeDownload;
   }
