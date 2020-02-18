@@ -26,3 +26,5 @@ nx.nodeDownload({
 - https://www.jianshu.com/p/63d70a93a401
 - https://jestjs.io/docs/en/configuration#testtimeout-number
 - https://stackoverflow.com/questions/44524236/using-proxy-like-fiddler-with-fetch-api
+- https://www.itminus.com/blog/2016/11/01/WindWhisper/ECMAScript/%E7%88%AC%E8%99%AB/Fetch-API-%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86/
+- https://github.com/Gyumeijie/issue-blog/issues/2

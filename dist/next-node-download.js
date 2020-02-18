@@ -2,8 +2,8 @@
  * name: @feizheng/next-node-download
  * description: Download file for next.
  * url: https://github.com/afeiship/next-node-download
- * version: 1.0.1
- * date: 2020-02-18 11:39:03
+ * version: 1.0.0
+ * date: 2020-02-18 11:45:47
  * license: MIT
  */
 
