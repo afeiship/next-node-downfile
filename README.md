@@ -1,9 +1,9 @@
-# next-node-download
+# next-node-downfile
 > Download file for next.
 
 ## installation
 ```bash
-npm install -S @feizheng/next-node-download
+npm install -S @feizheng/next-node-downfile
 # can not publish to npm
 ```
 
@@ -11,14 +11,14 @@ npm install -S @feizheng/next-node-download
 ~~~
 npm notice 📦  @feizheng/next-node-download@1.0.0
 npm notice === Tarball Contents === 
-npm notice 1.2kB dist/next-node-download.js    
-npm notice 718B  dist/next-node-download.min.js
+npm notice 1.2kB dist/next-node-downfile.js    
+npm notice 718B  dist/next-node-downfile.min.js
 npm notice 1.2kB package.json                  
-npm notice 1.3kB dist/next-node-download.js.map
+npm notice 1.3kB dist/next-node-downfile.js.map
 npm notice 979B  README.md                     
 npm notice 1.1kB LICENSE.txt                   
 npm notice === Tarball Details === 
-npm notice name:          @feizheng/next-node-download            
+npm notice name:          @feizheng/next-node-downfile            
 npm notice version:       1.0.0                                   
 npm notice package size:  2.7 kB                                  
 npm notice unpacked size: 6.4 kB                                  
@@ -27,7 +27,7 @@ npm notice integrity:     sha512-ZZZY21VS6hQ18[...]NutR8/d5U1T6g==
 npm notice total files:   6                                       
 npm notice 
 npm ERR! code E400
-npm ERR! 400 Bad Request - PUT https://registry.npmjs.org/@feizheng%2fnext-node-download - That word is not allowed. Please contact support (support@npmjs.com) if you believe you received this in error.
+npm ERR! 400 Bad Request - PUT https://registry.npmjs.org/@feizheng%2fnext-node-downfile - That word is not allowed. Please contact support (support@npmjs.com) if you believe you received this in error.
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/feizheng/.npm/_logs/2020-02-18T03_45_54_439Z-debug.log
@@ -40,7 +40,7 @@ Due to spam mitigation, the word download is no longer allowed to be used in a p
 
 ## usage
 ```js
-import '@feizheng/next-node-download';
+import '@feizheng/next-node-downfile';
 
 const filename = '__tests__/master.zip';
 nx.nodeDownload({

@@ -1,8 +1,8 @@
 {
-  "name": "@feizheng/next-node-download",
+  "name": "@feizheng/next-node-downfile",
   "version": "1.0.0",
   "description": "Download file for next.",
-  "homepage": "https://github.com/afeiship/next-node-download",
+  "homepage": "https://github.com/afeiship/next-node-downfile",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -12,16 +12,16 @@
     "test": "jest",
     "start": "node ./express.js"
   },
-  "main": "dist/next-node-download.js",
+  "main": "dist/next-node-downfile.js",
   "license": "MIT",
   "devDependencies": {
     "@feizheng/gulp-pkg-header": "^1.0.2",
-    "@feizheng/rake-git": "^1.2.0",
+    "@feizheng/rake-git": "^1.2.1",
     "del": "^5.1.0",
     "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-debug": "^4.0.0",
-    "gulp-header": "^2.0.7",
+    "gulp-header": "^2.0.9",
     "gulp-ignore": "^3.0.0",
     "gulp-load-plugins": "^2.0.2",
     "gulp-rename": "^2.0.0",
@@ -30,13 +30,12 @@
     "gulp-uglify": "^3.0.2",
     "https-proxy-agent": "^5.0.0",
     "jest": "^25.1.0",
-    "prettier": "^1.14.3",
+    "prettier": "^1.19.1",
     "uglify-save-license": "^0.4.1",
     "yargs": "^15.1.0"
   },
   "dependencies": {
-    "@feizheng/next-js-core2": "^2.4.0",
-    "http-proxy-agent": "^4.0.1",
+    "@feizheng/next-js-core2": "^2.4.1",
     "node-fetch": "^2.6.0"
   },
   "publishConfig": {

@@ -1,12 +1,3 @@
-/*!
- * name: @feizheng/next-node-download
- * description: Download file for next.
- * url: https://github.com/afeiship/next-node-download
- * version: 1.0.0
- * date: 2020-02-18 11:45:47
- * license: MIT
- */
-
 (function() {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
@@ -14,7 +5,7 @@
   var fs = require('fs');
   var DEFAULT_OPTIONS = {};
 
-  nx.nodeDownload = function(inOptions) {
+  nx.nodeDownfile = function(inOptions) {
     var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
     var filename = options.filename;
     var url = options.url;
@@ -33,9 +24,8 @@
       });
     });
   };
+
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.nodeDownload;
+    module.exports = nx.nodeDownfile;
   }
 })();
-
-//# sourceMappingURL=next-node-download.js.map

@@ -1,12 +1,12 @@
 const nx = require('@feizheng/next-js-core2');
 const fs = require('fs');
 const HttpsProxyAgent = require('https-proxy-agent');
-require('../src/next-node-download');
+require('../src/next-node-downfile');
 
 describe('api.basic test', () => {
-  test('nx.nodeDownload should download success', function(done) {
+  test('nx.nodeDownfile should download success', function(done) {
     const filename = '__tests__/fonts.zip';
-    nx.nodeDownload({
+    nx.nodeDownfile({
       url:
         'https://www.iconfont.cn/api/project/download.zip?spm=a313x.7781069.1998910419.d7543c303&pid=1353955&ctoken=emej-x0RAKLAIFXDSJWExAyr',
       filename,
@@ -22,7 +22,7 @@ describe('api.basic test', () => {
 
   test('download with https proxy', (done) => {
     const filename = '__tests__/master.zip';
-    nx.nodeDownload({
+    nx.nodeDownfile({
       url: 'https://github.com/afeiship/boilerplate-book-notes/archive/master.zip',
       filename,
       agent: new HttpsProxyAgent('http://127.0.0.1:9090')
