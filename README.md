@@ -33,6 +33,11 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/feizheng/.npm/_logs/2020-02-18T03_45_54_439Z-debug.log
 ~~~
 
+## reason
+~~~
+Due to spam mitigation, the word download is no longer allowed to be used in a package name. We recommend choosing a new package name without the download word.
+~~~
+
 ## usage
 ```js
 import '@feizheng/next-node-download';
