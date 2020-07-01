@@ -4,7 +4,7 @@ const HttpsProxyAgent = require('https-proxy-agent');
 require('../src/next-node-downfile');
 
 describe('api.basic test', () => {
-  test('nx.nodeDownfile should download success', function(done) {
+  test('nx.nodeDownfile should download success', function (done) {
     const filename = '__tests__/fonts.zip';
     nx.nodeDownfile({
       url:

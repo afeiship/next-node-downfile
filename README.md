@@ -1,11 +1,10 @@
 # next-node-downfile
 > Download file for next.
 
-## installation
-```bash
-npm install -S @feizheng/next-node-downfile
-# can not publish to npm
-```
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
 
 ## npm publish failed
 ~~~
@@ -60,3 +59,18 @@ nx.nodeDownload({
 - https://stackoverflow.com/questions/44524236/using-proxy-like-fiddler-with-fetch-api
 - https://www.itminus.com/blog/2016/11/01/WindWhisper/ECMAScript/%E7%88%AC%E8%99%AB/Fetch-API-%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86/
 - https://github.com/Gyumeijie/issue-blog/issues/2
+
+## license
+Code released under [the MIT license](https://github.com/afeiship/next-node-downfile/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@feizheng/next-node-downfile
+[version-url]: https://npmjs.org/package/@feizheng/next-node-downfile
+
+[license-image]: https://img.shields.io/npm/l/@feizheng/next-node-downfile
+[license-url]: https://github.com/afeiship/next-node-downfile/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-node-downfile
+[size-url]: https://github.com/afeiship/next-node-downfile/blob/master/dist/next-node-downfile.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@feizheng/next-node-downfile
+[download-url]: https://www.npmjs.com/package/@feizheng/next-node-downfile
