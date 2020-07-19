@@ -42,7 +42,7 @@ Due to spam mitigation, the word download is no longer allowed to be used in a p
 import '@feizheng/next-node-downfile';
 
 const filename = '__tests__/master.zip';
-nx.nodeDownload({
+nx.nodeDownfile({
   url: 'https://github.com/afeiship/boilerplate-book-notes/archive/master.zip',
   filename,
   agent: new HttpsProxyAgent('http://127.0.0.1:9090')
