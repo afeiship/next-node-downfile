@@ -1,6 +1,15 @@
+/*!
+ * name: @jswork/next-node-downfile
+ * description: Download file for next.
+ * homepage: https://github.com/afeiship/next-node-downfile
+ * version: 1.0.0
+ * date: 2020-11-20 17:39:42
+ * license: MIT
+ */
+
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var fetch = require('node-fetch');
   var fs = require('fs');
   var DEFAULT_OPTIONS = {};

@@ -6,6 +6,11 @@
 [![size][size-image]][size-url]
 [![download][download-image]][download-url]
 
+## installation
+```bash
+npm install -S @jswork/next-node-downfile
+```
+
 ## npm publish failed
 ~~~
 npm notice 📦  @feizheng/next-node-download@1.0.0
@@ -39,7 +44,7 @@ Due to spam mitigation, the word download is no longer allowed to be used in a p
 
 ## usage
 ```js
-import '@feizheng/next-node-downfile';
+import '@jswork/next-node-downfile';
 
 const filename = '__tests__/master.zip';
 nx.nodeDownfile({
@@ -63,14 +68,14 @@ nx.nodeDownfile({
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-node-downfile/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-node-downfile
-[version-url]: https://npmjs.org/package/@feizheng/next-node-downfile
+[version-image]: https://img.shields.io/npm/v/@jswork/next-node-downfile
+[version-url]: https://npmjs.org/package/@jswork/next-node-downfile
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-node-downfile
+[license-image]: https://img.shields.io/npm/l/@jswork/next-node-downfile
 [license-url]: https://github.com/afeiship/next-node-downfile/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-node-downfile
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-node-downfile
 [size-url]: https://github.com/afeiship/next-node-downfile/blob/master/dist/next-node-downfile.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-node-downfile
-[download-url]: https://www.npmjs.com/package/@feizheng/next-node-downfile
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-node-downfile
+[download-url]: https://www.npmjs.com/package/@jswork/next-node-downfile
