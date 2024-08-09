@@ -59,5 +59,8 @@
     "node",
     "download",
     "wip"
-  ]
+  ],
+  "dependencies": {
+    "@jswork/node-down": "^1.0.2"
+  }
 }

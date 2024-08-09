@@ -15,7 +15,12 @@ yarn add @jswork/next-node-downfile
 ```js
 import '@jswork/next-node-downfile';
 
-//DOCS here!
+nx.nodeDownfile({
+  url: 'https://www.iconfont.cn/api/project/download.zip?pid=4644398&ctoken=ldvj2ogXUEvE6mDiLwqJ7BS3',
+  headers: {
+    cookie: 'EGG_SESS_ICONFONT=xxx'
+  }
+});
 ```
 
 ## license

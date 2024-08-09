@@ -1,19 +1,7 @@
 import nx from '@jswork/next';
-import fs from 'fs';
+import download from '@jswork/node-down';
 
-nx.nodeDownfile = function(inOptions) {
-  const options = nx.mix(null, inOptions);
-  const filename = options.filename;
-  const url = options.url;
-  return new Promise(function(resolve, reject) {
-    return fetch(url, options).then(function(res) {
-      const fileStream = fs.createWriteStream(filename);
-      res.body.pipe(fileStream);
-      res.body.on('error', reject);
-      fileStream.on('finish', resolve);
-    });
-  });
-};
+nx.nodeDownfile = download;
 
 if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
   module.exports = nx.nodeDownfile;
