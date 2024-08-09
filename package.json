@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-node-downfile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download file for next.",
   "homepage": "https://js.work",
   "files": [
@@ -53,5 +53,11 @@
     "src/**/*.{js,jsx}": [
       "npm run pretty"
     ]
-  }
+  },
+  "keywords": [
+    "next",
+    "node",
+    "download",
+    "wip"
+  ]
 }
