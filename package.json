@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-node-downfile",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Download file for next.",
   "homepage": "https://js.work",
   "files": [
@@ -57,8 +57,7 @@
   "keywords": [
     "next",
     "node",
-    "download",
-    "wip"
+    "download"
   ],
   "dependencies": {
     "@jswork/node-down": "^1.0.2"
